@@ -1,0 +1,7 @@
+curl localhost:4000/internal/post/comment -X POST -d '{"name":"faizal", "comment":"testing deployment"}'
+
+curl localhost:4000/internal/get -X GET
+
+curl localhost:4000/internal/get{id} -X GET
+
+curl localhost:4000/internal/delete/{id} -X DELETE
